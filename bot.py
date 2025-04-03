@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import yt_dlp
 import os
 
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+BOT_TOKEN = "7560518968:AAHQBNAlSzkQcq5MNC3vJDziIu09iLc3cC4"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("欢迎！请发送包含 Twitter 视频的推文链接。")
